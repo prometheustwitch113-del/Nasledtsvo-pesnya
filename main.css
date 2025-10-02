@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+background: linear-gradient(90deg,rgba(153, 226, 255, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
+width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header .logo {
+    position: absolute;
+    top: 100px;
+    left: 660px;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+header nav {
+    float: right;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: mediumblue
+}
+
+header nav ul li  a:hover {
+    border-bottom: 5px solid #DC7000;
+}
+
+.hero img {
+    position: absolute;
+    top:140px;
+    right: 600px;
+    left: 515px;
+}
+.hero p {
+     position: absolute;
+    top:180px;
+    right: 100px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.hero h1 {
+    position: absolute;
+    top:170px;
+    right: 100px;
+    left: 1330px;
+    font-size: 18px;
+    font-weight: 700;
+}
+ audio{ 
+    display: none;
+}
+    
+    
+
+
+
+.sound-btn {
+    padding: 0.5rem  8rem;
+    border-radius: 4rem;
+    font-size: 3rem;
+    color: blue;
+    font-weight: 800;
+    background-color: dodgerblue;
+    cursor: pointer;
+
+}
+
+
